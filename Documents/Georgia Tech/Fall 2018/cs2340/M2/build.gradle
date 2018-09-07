@@ -1,0 +1,16 @@
+defaultTasks '<task>'
+
+apply plugin: 'java'
+
+dependencies {
+	_____________
+}
+
+jar {
+	manifest {
+		attributes("Implementation-Title": "",
+        		   "Implementation-Version": "",
+                   "Main-Class: "",
+                   "Class-Path: "")
+	}
+}
